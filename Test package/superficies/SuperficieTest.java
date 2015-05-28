@@ -44,12 +44,12 @@ public class SuperficieTest {
     @Test
     public void testCalcuCuad() {
         System.out.println("calcuCuad");
-        float lado = 0.0F;
-        float expResult = 0.0F;
+        float lado = 5.0F;
+        float expResult = 25.0F;
         float result = Superficie.calcuCuad(lado);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -64,7 +64,7 @@ public class SuperficieTest {
         float result = Superficie.calcuRectang(base, altura);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -79,7 +79,7 @@ public class SuperficieTest {
         float result = Superficie.calcuTrian(base, altura);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -93,7 +93,7 @@ public class SuperficieTest {
         float result = Superficie.calcuCirc(radio);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }
